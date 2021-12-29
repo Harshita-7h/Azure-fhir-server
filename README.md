@@ -8,11 +8,5 @@ Developers can save time when it’s required to integrate a FHIR server into an
 # Prerequisites
 Before deploying the samples scenario, make sure you have Az and AzureAd powershell modules installed:
 
-Install-Module Az
-Install-Module AzureAd
-The new Az module requires PowerShell version 5.1 or above installed on your computer. So if you have PowerShell version below 5.1, you need to update it. To check your PowerShell version, you can run:
-
-$PSVersionTable.PSVersion
-Currently, there is a bug with PowerShell Az Module version 4.6.1 confirmed with Azure ARM team. For now, please avoid using version 4.6.1. Version 4.5 and versions 4.7.0 or above should work fine. To check your Az module version, you can run:
-
-Get-InstalledModule -Name Az
+1. Install-Module Az
+2. Install-Module AzureAd
